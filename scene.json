@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": "tanks4nothin",
+    "favicon": "materials/moonicon.png"
+  },
+  "contact": {
+    "name": "Mike Shultz",
+    "email": "mike@mikeshultz.com"
+  },
+  "owner": "0x9283099A29556fCF8fFF5b2Cea2D4F67CB7A7A8b",
+  "scene": {
+    "parcels": [
+      "-124,-60"
+    ],
+    "base": "-124,-60"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "main": "bin/game.js",
+  "tags": []
+}
