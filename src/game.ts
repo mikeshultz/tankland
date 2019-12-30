@@ -138,7 +138,6 @@ function createBox(position, scale, rotation = null) {
     rotation,
     scale
   }))
-  //e.addComponent(new Billboard(false, true, false))
 
   return e
 }
@@ -147,9 +146,6 @@ function createGround() {
   const e = new Entity()
 
   const p = new PlaneShape()
-  //p.height = 18
-  //p.width = 18
-  log(`p`, p)
 
   const m = new Material()
   m.albedoColor = new Color3(0, 0, 0) // black
