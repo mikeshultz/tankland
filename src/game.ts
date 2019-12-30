@@ -110,7 +110,7 @@ class TankSystem {
 
 
 
-function createBox(position, scale, rotation) {
+function createBox(position, scale, rotation = null) {
   scale = scale || new Vector3(2,2,1)
   rotation = rotation || Quaternion.Euler(0, 0, 0)
   const e = new Entity()
@@ -180,9 +180,9 @@ function spawnTank() {
   return tank
 }
 
+const ground = createGround()
 const box1 = createBox(new Vector3(4, 0.5, 4), new Vector3(1, 1, 1))
 const box2 = createBox(new Vector3(8, 0.5, 8), new Vector3(1, 1, 1), Quaternion.Euler(0, 40, 0))
-const ground = createGround()
 const tank = spawnTank()
 
 engine.addEntity(ground)
